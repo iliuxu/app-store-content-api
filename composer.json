@@ -1,0 +1,24 @@
+{
+    "name": "iliuxu/app-store-content",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "lcobucci/jwt": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lazy\\AppStore\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuxu",
+            "email": "imliuxu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
