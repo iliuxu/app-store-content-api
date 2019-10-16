@@ -55,7 +55,6 @@ class Profile extends Base
                 'type' => 'profiles',
             ]
         ];
-        echo json_encode($params);
         return $this->postJson($url, $params, $this->header);
     }
 
