@@ -13,6 +13,11 @@ The API provides resources for automating the following areas of App Store Conne
 
 ## Usage
 
+### Install
+
+```shell
+composer require iliuxu/app-store-content
+```
 
 ## ToDo
 
